@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bu ikkinchi sahifa</title>
+<style>
+li{
+    font-size: 35px;
+    color: #2f2685;
+}    
+</style>
+</head>
+<body>
+ <ul>  
+ {% for post in Barcha_postlar %} 
+      <li >{{ post.text }}</li> 
+      {% endfor %}    
+</ul>  
+</body>
+</html>
